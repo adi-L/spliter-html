@@ -1,6 +1,6 @@
 {
   "name": "spliter-html",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "spliter-html is BADASS library to split any html in contentEditable. ",
   "main": "prod/lib/spliter-html.js",
   "files": [
