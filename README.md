@@ -10,21 +10,17 @@ spliter-html
 from:
 
 ```
-<p>
-<span style="font-size:14px;">
-some text [with] font size
-</span>
-</p>
+<div>
+<img src="https://picsum.photos/200/300">
+</div>
+
 ```
 
 to:
-
+<div></div>
+<img src="https://picsum.photos/200/300">
+<div></div>
 ```
-<p>
-<span style="font-size:14px;">some text</span>
-<span style="font-size:20px;"> with</span>
-<span style="font-size:14px;">font size</span>
-</p>
 ```
 
 ### How to use
