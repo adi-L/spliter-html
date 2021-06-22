@@ -6,7 +6,7 @@ import { getSelectedElement } from './utilis/getSelectedElement';
 import { ischildOf } from './utilis/ischildOf';
 import { isElement } from './utilis/isElement';
 
-export default function splitHTML(fromElement, toElement, options = {}) {
+export default function spliterHtml(fromElement, toElement, options = {}) {
   const { tag = toElement.nodeName } = options;
   if (fromElement === toElement) {
     return null;

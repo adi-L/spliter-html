@@ -1,8 +1,8 @@
 {
-  "name": "split-html",
-  "version": "1.0.0",
-  "description": "split-html is BADASS library to split any html in contentEditable. ",
-  "main": "prod/lib/split-html.js",
+  "name": "spliter-html",
+  "version": "1.0.1",
+  "description": "spliter-html is BADASS library to split any html in contentEditable. ",
+  "main": "prod/lib/spliter-html.js",
   "files": [
     "prod/dist/",
     "prod/lib/"
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adi-L/split-html.git"
+    "url": "git+https://github.com/adi-L/spliter-html.git"
   },
   "keywords": [
     "wysiwyg",
@@ -40,7 +40,7 @@
   "author": "Adi L",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adi-L/split-html/issues"
+    "url": "https://github.com/adi-L/spliter-html/issues"
   },
   "homepage": "",
   "devDependencies": {
