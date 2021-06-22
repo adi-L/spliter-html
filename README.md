@@ -30,7 +30,7 @@ to:
 ### How to use
 
 ```
-splitHtml(fromElement,toElement);
+spliterHtml(fromElement,toElement);
 ```
 
 fromElement must be child of toElement
