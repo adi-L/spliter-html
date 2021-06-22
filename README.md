@@ -1,4 +1,4 @@
-split-html (Beta)
+spliter-html
 ==============
 
 ### BADDASS library to split html elements in contentEditable
