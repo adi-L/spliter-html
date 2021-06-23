@@ -3,8 +3,6 @@ spliter-html
 
 ### BADDASS library to split html elements in contentEditable
 
-#### [with] is the selected and will change from font-size from 14px to 20px
-
 ## Result
 
 from:
@@ -17,6 +15,7 @@ from:
 ```
 
 to:
+
 ```
 <div></div>
 <img src="https://picsum.photos/200/300">
