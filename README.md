@@ -22,6 +22,27 @@ to:
 <div></div>
 ```
 
+Works for rich text editors
+
+from:
+
+```
+<p>
+<span style="font-size:14px">Feel free to open [issues on] Github.</span>
+</p>
+
+```
+
+to:
+
+```
+<p>
+<span style="font-size:14px">Feel free to open </span>
+<span style="font-size:20px">issues on</span>
+<span style="font-size:14px"> Github.</span>
+</p>
+```
+
 ### How to use
 
 ```
