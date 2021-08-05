@@ -20,7 +20,7 @@ export default function spliterHtml(fromElement, toElement, options = {}) {
   const setAttrs = (_fromElement, _toElement) => {
     const styles = getCss(_fromElement, _toElement);
     const attrs = getAttributes(_fromElement, _toElement);
-    const template = document.createElement(tag);
+    const template = document.createElement(typeof attrs.href === 'string' ? 'a' : tag);
     for (const style in styles) {
       if (Object.prototype.hasOwnProperty.call(styles, style)) {
         const value = styles[style];
