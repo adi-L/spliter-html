@@ -1,7 +1,7 @@
 spliter-html
 ==============
 
-### BADDASS library to split html elements in contentEditable
+### library to split html elements in contentEditable
 
 ## Result
 
@@ -49,4 +49,4 @@ to:
 spliterHtml(fromElement,toElement);
 ```
 
-fromElement must be child of toElement
+* fromElement must be child of toElement.
