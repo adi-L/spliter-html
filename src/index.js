@@ -70,10 +70,6 @@ export default function spliterHtml(fromElement, toElement, options = {}) {
       toElement.appendChild(element);
     }
   }
-  if (isElement(split.center)) {
-    unwrap(split.center);
-    split.center = fromElement;
-  }
   unwrap(toElement);
   return split;
 
