@@ -5,6 +5,8 @@ import { getCss } from './utilis/getCss';
 import { getSelectedElement } from './utilis/getSelectedElement';
 import { ischildOf } from './utilis/ischildOf';
 import { isElement } from './utilis/isElement';
+import {getStyleTags} from './utilis/getStyleTags';
+import './utilis/prototype';
 
 export default function spliterHtml(fromElement, toElement, options = {}) {
   const { tag = toElement.nodeName } = options;
@@ -38,9 +40,10 @@ export default function spliterHtml(fromElement, toElement, options = {}) {
 
   createSelection(fromElement);
   const centerElement = getSelectedElement();
+  const newCenter = getStyleTags(centerElement, toElement);
   const centerTemplate = setAttrs(centerElement, toElement);
   // center
-  centerTemplate.appendChild(fromElement);
+  centerTemplate.appendChild(newCenter);
   let sel = window.getSelection();
   let range = sel.getRangeAt(0);
   // left
